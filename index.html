@@ -9,9 +9,10 @@
         /* إعدادات عامة */
         body {
             font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    background-color: #cec48c;
+    direction: rtl;
         }
 
         header {
@@ -94,7 +95,7 @@
         }
 
         footer {
-            background-color: #333;
+            background-color: #1a705d;
             color: white;
             padding: 30px;
             text-align: center;
@@ -249,11 +250,11 @@
 }
 
         body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            direction: rtl;
+font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cec48c;
+    direction: rtl;
         }
 
         header {
@@ -369,6 +370,25 @@
                 display: none;
             }
         }
+      #whatsapp-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#whatsapp-chat a img {
+    width: 60px;
+    height: 60px;
+        /* border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#whatsapp-chat a img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
     </style>
 </head>
 <body>
@@ -504,7 +524,15 @@
         </div>
                      <div class="grid-item">
                 <img src="https://b.top4top.io/p_32182lps81.jpeg" alt="شركة القيصي للعصائر">
-            <p>كايرو ثرى ايه</p>   
+            <p>كايرو ثرى ايه</p>
+        </div>    
+                     <div class="grid-item">
+                <img src="https://c.top4top.io/p_32441ttvk4.png" alt="شركة القيصي للعصائر">
+            <p>شركه مطاحن امون</p>
+        </div>    
+                     <div class="grid-item">
+                <img src="https://l.top4top.io/p_3244std011.png" alt="شركة القيصي للعصائر">
+            <p>Egypt Bakery Stores</p>   
     
 </section>
 
@@ -538,13 +566,21 @@
           </div>    
                 <div class="grid-item">
                 <img src="https://l.top4top.io/p_3218vzci71.png" alt="القطاع الصحي">
-                <p>ادوات وقاية</p>
-                  
-             </div>     
-                <div class="grid-item">
-                <img src="https://f.top4top.io/p_3218zr8om1.png" alt="القطاع الصحي">
+                <p>ادوات وقاية</p> 
+          </div>     
+              <div class="grid-item">
+            <img src="https://f.top4top.io/p_3218zr8om1.png" alt="القطاع الصحي">
                 <p>اجهزة قياس</p>
+          </div>
+            <div class="grid-item">
+                <img src="https://b.top4top.io/p_3244ndxtr3.jpeg" alt="القطاع الصحي">
+                <p>جوانتي طبي ناتيريال ازرق فيت برو</p>
+          </div>
+            <div class="grid-item">
+                <img src="https://a.top4top.io/p_3244zhlyw2.jpeg" alt="القطاع الصحي">
+                <p>كاشف الكلور </p>
     </section>
+   
 
 
     <div id="contact-modal" class="modal">
@@ -617,5 +653,10 @@ document.addEventListener('click', (e) => {
 });
 
     </script>
+            <div id="whatsapp-chat">
+    <a href="https://wa.me/+201004908077" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/archive/6/6b/20181018164719%21WhatsApp.svg" alt="WhatsApp" />
+    </a>
+</div>
 </body>
 </html>
